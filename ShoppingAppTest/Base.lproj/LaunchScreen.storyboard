@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +15,74 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="cart" translatesAutoresizingMaskIntoConstraints="NO" id="0FN-Y7-ctw">
+                                <rect key="frame" x="163" y="259" width="49" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="VoE-pw-KNd"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="41" id="aAY-qe-GP1"/>
+                                    <constraint firstAttribute="width" constant="49" id="cg8-x3-BeU"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="49" id="tHY-yU-LFt"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="beans" translatesAutoresizingMaskIntoConstraints="NO" id="kiY-Pm-r3j">
+                                <rect key="frame" x="174" y="221" width="20" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="0A1-Y3-Xrg"/>
+                                    <constraint firstAttribute="width" constant="20" id="sXm-H5-AZj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="eRc-in-vkS">
+                                <rect key="frame" x="185" y="195" width="36" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="3wV-0V-OXE"/>
+                                    <constraint firstAttribute="width" constant="36" id="ObE-v4-zKx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping app" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTz-4h-Yfb">
+                                <rect key="frame" x="102" y="331" width="170" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="WHq-MA-7lf"/>
+                                    <constraint firstAttribute="width" constant="170" id="eoT-yt-cBS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.51764705879999995" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="eggs" translatesAutoresizingMaskIntoConstraints="NO" id="Dbw-Bp-x3r">
+                                <rect key="frame" x="158" y="169" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="WIK-cJ-Akv"/>
+                                    <constraint firstAttribute="height" constant="28" id="XcR-BG-kJM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eRc-in-vkS" firstAttribute="top" secondItem="Dbw-Bp-x3r" secondAttribute="bottom" constant="-2" id="CV8-Ma-tGd"/>
+                            <constraint firstItem="kiY-Pm-r3j" firstAttribute="top" secondItem="Dbw-Bp-x3r" secondAttribute="bottom" constant="24" id="LnI-Kv-M7m"/>
+                            <constraint firstItem="0FN-Y7-ctw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="QKn-I3-VAi"/>
+                            <constraint firstItem="Dbw-Bp-x3r" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="149" id="VWZ-V3-VjQ"/>
+                            <constraint firstItem="uTz-4h-Yfb" firstAttribute="top" secondItem="0FN-Y7-ctw" secondAttribute="bottom" constant="31" id="Vp7-WD-jYF"/>
+                            <constraint firstItem="kiY-Pm-r3j" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="154" id="Vyq-oe-Gbn"/>
+                            <constraint firstItem="uTz-4h-Yfb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iXx-K9-Sb9"/>
+                            <constraint firstItem="0FN-Y7-ctw" firstAttribute="top" secondItem="kiY-Pm-r3j" secondAttribute="bottom" constant="13" id="nM8-mN-fKs"/>
+                            <constraint firstItem="Dbw-Bp-x3r" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-15.5" id="p43-mt-7u3"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="beans" width="50" height="50"/>
+        <image name="cart" width="50" height="50"/>
+        <image name="eggs" width="50" height="50"/>
+        <image name="milk" width="50" height="50"/>
+    </resources>
 </document>

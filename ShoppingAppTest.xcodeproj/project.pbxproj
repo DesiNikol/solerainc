@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A1360590BDD79E7EF0473A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF122C1E01E6FABBB4ECD8D /* libPods.a */; };
+		63370EA11CB028CF0011ACB5 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63370EA01CB028CF0011ACB5 /* DetailsViewController.m */; };
+		63370EA51CB031F90011ACB5 /* AFNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 63370EA41CB031F90011ACB5 /* AFNClient.m */; };
 		6355BA311CAEFB6D004033E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA301CAEFB6D004033E8 /* main.m */; };
 		6355BA341CAEFB6D004033E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA331CAEFB6D004033E8 /* AppDelegate.m */; };
 		6355BA371CAEFB6D004033E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA361CAEFB6D004033E8 /* ViewController.m */; };
@@ -15,6 +18,12 @@
 		6355BA3F1CAEFB6D004033E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6355BA3D1CAEFB6D004033E8 /* LaunchScreen.storyboard */; };
 		6355BA4A1CAEFB6D004033E8 /* ShoppingAppTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA491CAEFB6D004033E8 /* ShoppingAppTestTests.m */; };
 		6355BA551CAEFB6D004033E8 /* ShoppingAppTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA541CAEFB6D004033E8 /* ShoppingAppTestUITests.m */; };
+		6355BA671CAEFD62004033E8 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA661CAEFD62004033E8 /* ItemCollectionViewCell.m */; };
+		6355BA6A1CAEFDC7004033E8 /* AppDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA691CAEFDC7004033E8 /* AppDataManager.m */; };
+		6355BA6E1CAEFDE0004033E8 /* ShoppingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA6D1CAEFDE0004033E8 /* ShoppingItem.m */; };
+		6355BA711CAEFF41004033E8 /* BasketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355BA701CAEFF41004033E8 /* BasketViewController.m */; };
+		6355BA731CAF0577004033E8 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6355BA721CAF0577004033E8 /* images.xcassets */; };
+		6355BA751CAF14F1004033E8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6355BA741CAF14F1004033E8 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D8CD9EC7432AA8C392F9DA1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4AF122C1E01E6FABBB4ECD8D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63370E9F1CB028CF0011ACB5 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		63370EA01CB028CF0011ACB5 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		63370EA31CB031F90011ACB5 /* AFNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNClient.h; sourceTree = "<group>"; };
+		63370EA41CB031F90011ACB5 /* AFNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNClient.m; sourceTree = "<group>"; };
 		6355BA2C1CAEFB6D004033E8 /* ShoppingAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6355BA301CAEFB6D004033E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6355BA321CAEFB6D004033E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,17 @@
 		6355BA501CAEFB6D004033E8 /* ShoppingAppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingAppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6355BA541CAEFB6D004033E8 /* ShoppingAppTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingAppTestUITests.m; sourceTree = "<group>"; };
 		6355BA561CAEFB6D004033E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6355BA651CAEFD62004033E8 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
+		6355BA661CAEFD62004033E8 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
+		6355BA681CAEFDC7004033E8 /* AppDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataManager.h; sourceTree = "<group>"; };
+		6355BA691CAEFDC7004033E8 /* AppDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataManager.m; sourceTree = "<group>"; };
+		6355BA6C1CAEFDE0004033E8 /* ShoppingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingItem.h; sourceTree = "<group>"; };
+		6355BA6D1CAEFDE0004033E8 /* ShoppingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItem.m; sourceTree = "<group>"; };
+		6355BA6F1CAEFF41004033E8 /* BasketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasketViewController.h; sourceTree = "<group>"; };
+		6355BA701CAEFF41004033E8 /* BasketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketViewController.m; sourceTree = "<group>"; };
+		6355BA721CAF0577004033E8 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		6355BA741CAF14F1004033E8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C4D1E548C1280A50DD6E4D65 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A1360590BDD79E7EF0473A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2199555A3478E2DDB36A1737 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D8CD9EC7432AA8C392F9DA1 /* Pods.debug.xcconfig */,
+				C4D1E548C1280A50DD6E4D65 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		21BCD7267235E01257FA4DAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AF122C1E01E6FABBB4ECD8D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63370EA21CB031E90011ACB5 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				63370EA31CB031F90011ACB5 /* AFNClient.h */,
+				63370EA41CB031F90011ACB5 /* AFNClient.m */,
+			);
+			name = networking;
+			sourceTree = "<group>";
+		};
 		6355BA231CAEFB6D004033E8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +138,8 @@
 				6355BA481CAEFB6D004033E8 /* ShoppingAppTestTests */,
 				6355BA531CAEFB6D004033E8 /* ShoppingAppTestUITests */,
 				6355BA2D1CAEFB6D004033E8 /* Products */,
+				2199555A3478E2DDB36A1737 /* Pods */,
+				21BCD7267235E01257FA4DAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +156,18 @@
 		6355BA2E1CAEFB6D004033E8 /* ShoppingAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				6355BA641CAEFC72004033E8 /* model */,
+				6355BA631CAEFC6D004033E8 /* views */,
+				6355BA621CAEFC66004033E8 /* controllers */,
 				6355BA321CAEFB6D004033E8 /* AppDelegate.h */,
 				6355BA331CAEFB6D004033E8 /* AppDelegate.m */,
-				6355BA351CAEFB6D004033E8 /* ViewController.h */,
-				6355BA361CAEFB6D004033E8 /* ViewController.m */,
 				6355BA381CAEFB6D004033E8 /* Main.storyboard */,
 				6355BA3B1CAEFB6D004033E8 /* Assets.xcassets */,
+				6355BA721CAF0577004033E8 /* images.xcassets */,
 				6355BA3D1CAEFB6D004033E8 /* LaunchScreen.storyboard */,
 				6355BA401CAEFB6D004033E8 /* Info.plist */,
 				6355BA2F1CAEFB6D004033E8 /* Supporting Files */,
+				6355BA741CAF14F1004033E8 /* Podfile */,
 			);
 			path = ShoppingAppTest;
 			sourceTree = "<group>";
@@ -140,6 +198,48 @@
 			path = ShoppingAppTestUITests;
 			sourceTree = "<group>";
 		};
+		6355BA621CAEFC66004033E8 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6355BA351CAEFB6D004033E8 /* ViewController.h */,
+				6355BA361CAEFB6D004033E8 /* ViewController.m */,
+				6355BA6F1CAEFF41004033E8 /* BasketViewController.h */,
+				6355BA701CAEFF41004033E8 /* BasketViewController.m */,
+				63370E9F1CB028CF0011ACB5 /* DetailsViewController.h */,
+				63370EA01CB028CF0011ACB5 /* DetailsViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		6355BA631CAEFC6D004033E8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6355BA651CAEFD62004033E8 /* ItemCollectionViewCell.h */,
+				6355BA661CAEFD62004033E8 /* ItemCollectionViewCell.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		6355BA641CAEFC72004033E8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				63370EA21CB031E90011ACB5 /* networking */,
+				6355BA6B1CAEFDD2004033E8 /* objects */,
+				6355BA681CAEFDC7004033E8 /* AppDataManager.h */,
+				6355BA691CAEFDC7004033E8 /* AppDataManager.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		6355BA6B1CAEFDD2004033E8 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				6355BA6C1CAEFDE0004033E8 /* ShoppingItem.h */,
+				6355BA6D1CAEFDE0004033E8 /* ShoppingItem.m */,
+			);
+			name = objects;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6355BA591CAEFB6D004033E8 /* Build configuration list for PBXNativeTarget "ShoppingAppTest" */;
 			buildPhases = (
+				345E4202984F07FDBD7C5F09 /* Check Pods Manifest.lock */,
 				6355BA281CAEFB6D004033E8 /* Sources */,
 				6355BA291CAEFB6D004033E8 /* Frameworks */,
 				6355BA2A1CAEFB6D004033E8 /* Resources */,
+				4EF7556490CA41DB60CDF87F /* Embed Pods Frameworks */,
+				CA7F894A7DDF4BDEE932B4C9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +346,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6355BA751CAF14F1004033E8 /* Podfile in Resources */,
 				6355BA3F1CAEFB6D004033E8 /* LaunchScreen.storyboard in Resources */,
+				6355BA731CAF0577004033E8 /* images.xcassets in Resources */,
 				6355BA3C1CAEFB6D004033E8 /* Assets.xcassets in Resources */,
 				6355BA3A1CAEFB6D004033E8 /* Main.storyboard in Resources */,
 			);
@@ -265,14 +370,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		345E4202984F07FDBD7C5F09 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EF7556490CA41DB60CDF87F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7F894A7DDF4BDEE932B4C9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6355BA281CAEFB6D004033E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6355BA371CAEFB6D004033E8 /* ViewController.m in Sources */,
+				6355BA711CAEFF41004033E8 /* BasketViewController.m in Sources */,
+				6355BA6A1CAEFDC7004033E8 /* AppDataManager.m in Sources */,
+				6355BA671CAEFD62004033E8 /* ItemCollectionViewCell.m in Sources */,
 				6355BA341CAEFB6D004033E8 /* AppDelegate.m in Sources */,
+				6355BA6E1CAEFDE0004033E8 /* ShoppingItem.m in Sources */,
 				6355BA311CAEFB6D004033E8 /* main.m in Sources */,
+				63370EA51CB031F90011ACB5 /* AFNClient.m in Sources */,
+				63370EA11CB028CF0011ACB5 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +572,7 @@
 		};
 		6355BA5A1CAEFB6D004033E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8CD9EC7432AA8C392F9DA1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShoppingAppTest/Info.plist;
@@ -424,6 +584,7 @@
 		};
 		6355BA5B1CAEFB6D004033E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D1E548C1280A50DD6E4D65 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShoppingAppTest/Info.plist;
@@ -498,6 +659,7 @@
 				6355BA5B1CAEFB6D004033E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6355BA5C1CAEFB6D004033E8 /* Build configuration list for PBXNativeTarget "ShoppingAppTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +668,7 @@
 				6355BA5E1CAEFB6D004033E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6355BA5F1CAEFB6D004033E8 /* Build configuration list for PBXNativeTarget "ShoppingAppTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +677,7 @@
 				6355BA611CAEFB6D004033E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
